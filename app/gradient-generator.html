@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator - DevToolkit 2000</title>
+    <link rel="stylesheet" href="../assets/main/styles.css">
+    <link rel="stylesheet" href="../assets/gradient-generator/gradient-generator.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gradient Generator</h1>
+        <a href="../index.html" class="back-link">Volver a la página principal</a>
+    </header>
+    <main>
+        <div class="gradient-generator-container">
+            <div class="controls">
+                <div class="color-inputs">
+                    <input type="color" id="color1" value="#ff69b4">
+                    <input type="color" id="color2" value="#ffffff">
+                </div>
+                <select id="gradient-type">
+                    <option value="linear">Lineal</option>
+                    <option value="radial">Radial</option>
+                </select>
+                <input type="range" id="angle" min="0" max="360" value="90">
+                <span id="angle-value">90°</span>
+            </div>
+            <div id="gradient-preview"></div>
+            <textarea id="css-output" readonly></textarea>
+            <button id="copy-css">Copiar CSS</button>
+        </div>
+    </main>
+    <footer>
+        <p>DevToolkit 2000 - Herramientas retro para desarrolladores modernos</p>
+    </footer>
+    <script src="../assets/gradient-generator/gradient-generator.js"></script>
+</body>
+
+</html>

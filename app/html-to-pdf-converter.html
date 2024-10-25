@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to PDF Converter - DevToolkit 2000</title>
+    <link rel="stylesheet" href="../assets/main/styles.css">
+    <link rel="stylesheet" href="../assets/html-to-pdf/html-to-pdf-converter.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>HTML to PDF Converter</h1>
+        <a href="../index.html" class="back-link">Volver a la página principal</a>
+    </header>
+    <main>
+        <div class="html-to-pdf-converter-container">
+            <textarea id="html-input" placeholder="Ingresa tu código HTML aquí..."></textarea>
+            <div class="button-group">
+                <button id="preview-button">Vista previa</button>
+                <button id="convert-button">Convertir a PDF</button>
+            </div>
+            <div id="preview-container"></div>
+        </div>
+    </main>
+    <footer>
+        <p>DevToolkit 2000 - Herramientas retro para desarrolladores modernos</p>
+    </footer>
+    <script src="../assets/html-to-pdf/html-to-pdf-converter.js"></script>
+</body>
+
+</html>

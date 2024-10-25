@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Speed Tester - DevToolkit 2000</title>
+    <link rel="stylesheet" href="../assets/main/styles.css">
+    <link rel="stylesheet" href="../assets/page-speed/page-speed-tester.css">
+</head>
+
+<body>
+    <header>
+        <h1>Page Speed Tester</h1>
+        <a href="../index.html" class="back-link">Volver a la página principal</a>
+    </header>
+    <main>
+        <div class="page-speed-tester-container">
+            <input type="url" id="url-input" placeholder="Ingresa la URL de la página">
+            <button id="test-button">Analizar velocidad</button>
+            <div id="results-container">
+                <div class="result-item">
+                    <h3>Tiempo de carga</h3>
+                    <p id="load-time">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Tamaño de la página</h3>
+                    <p id="page-size">-</p>
+                </div>
+                <div class="result-item">
+                    <h3>Número de recursos</h3>
+                    <p id="resource-count">-</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>DevToolkit 2000 - Herramientas retro para desarrolladores modernos</p>
+    </footer>
+    <script src="../assets/page-speed/page-speed-tester.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Previewer - DevToolkit 2000</title>
+    <link rel="stylesheet" href="../assets/main/styles.css">
+    <link rel="stylesheet" href="../assets/font-previewer/font-previewer.css">
+</head>
+
+<body>
+    <header>
+        <h1>Font Previewer</h1>
+        <a href="../index.html" class="back-link">Volver a la página principal</a>
+    </header>
+    <main>
+        <div class="font-previewer-container">
+            <div class="controls">
+                <select id="font-selector">
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Times New Roman', serif">Times New Roman</option>
+                    <option value="'Courier New', monospace">Courier New</option>
+                    <option value="Georgia, serif">Georgia</option>
+                    <option value="'Trebuchet MS', sans-serif">Trebuchet MS</option>
+                    <option value="Verdana, sans-serif">Verdana</option>
+                    <option value="Tahoma, sans-serif">Tahoma</option>
+                    <option value="'Lucida Console', monospace">Lucida Console</option>
+                    <option value="'Comic Sans MS', cursive">Comic Sans MS</option>
+                    <option value="'Palatino Linotype', serif">Palatino Linotype</option>
+                    <option value="'Impact', sans-serif">Impact</option>
+                    <option value="'Gill Sans', sans-serif">Gill Sans</option>
+                    <option value="'Segoe UI', sans-serif">Segoe UI</option>
+                    <option value="'Open Sans', sans-serif">Open Sans</option>
+                    <option value="'Roboto', sans-serif">Roboto</option>
+                    <option value="'Lato', sans-serif">Lato</option>
+                    <option value="'Montserrat', sans-serif">Montserrat</option>
+                    <option value="'Futura', sans-serif">Futura</option>
+                    <option value="'Baskerville', serif">Baskerville</option>
+                    <option value="'Garamond', serif">Garamond</option>
+                </select>
+                <input type="number" id="font-size" value="16" min="8" max="72">
+                <input type="color" id="font-color" value="#000000">
+            </div>
+            <div class="preview-area">
+                <p id="preview-text" contenteditable="true">
+                    El zorro marrón rápido salta sobre el perro perezoso. 1234567890
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>DevToolkit 2000 - Herramientas retro para desarrolladores modernos</p>
+    </footer>
+    <script src="../assets/font-previewer/font-previewer.js"></script>
+</body>
+
+</html>
